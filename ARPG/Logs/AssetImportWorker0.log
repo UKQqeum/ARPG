@@ -15,7 +15,7 @@ C:/Users/djarl/Desktop/ARPG/ARPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51687
+55840
 Successfully changed project path to: C:/Users/djarl/Desktop/ARPG/ARPG
 C:/Users/djarl/Desktop/ARPG/ARPG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/djarl/Desktop/ARPG/ARPG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26096] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2157896897 [EditorId] 2157896897 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-871T6LV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6484] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 1275625928 [EditorId] 1275625928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-871T6LV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26096] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2157896897 [EditorId] 2157896897 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-871T6LV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6484] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 1275625928 [EditorId] 1275625928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-871T6LV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 190.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008763 seconds.
-- Loaded All Assemblies, in  0.452 seconds
+Registered in 0.011593 seconds.
+- Loaded All Assemblies, in  0.623 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 944 ms
+Android Extension - Scanning For ADB Devices 276 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.574 seconds
-Domain Reload Profiling: 2025ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1317ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (151ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (185ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (157ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1575ms)
+	FinalizeReload (697ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1477ms)
+		SetupLoadedEditorAssemblies (622ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1099ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (419ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (243ms)
-			ProcessInitializeOnLoadMethodAttributes (123ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,57 +120,53 @@ Domain Reload Profiling: 2025ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.948 seconds
-Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.125 seconds
-Domain Reload Profiling: 2071ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  1.054 seconds
+Domain Reload Profiling: 1934ms
+	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (39ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (651ms)
-		LoadAssemblies (405ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (349ms)
-			TypeCache.Refresh (299ms)
-				TypeCache.ScanAssembly (276ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1126ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1055ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (878ms)
+		SetupLoadedEditorAssemblies (819ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (466ms)
-			ProcessInitializeOnLoadMethodAttributes (248ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.14 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6211 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (3.6 MB). Loaded Objects now: 6678.
-Memory consumption went from 291.2 MB to 287.7 MB.
-Total: 12.518800 ms (FindLiveObjects: 1.176400 ms CreateObjectMapping: 1.533000 ms MarkObjects: 8.154600 ms  DeleteObjects: 1.652900 ms)
+Unloading 6230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.6 MB). Loaded Objects now: 6697.
+Memory consumption went from 291.6 MB to 288.0 MB.
+Total: 5.818200 ms (FindLiveObjects: 0.522600 ms CreateObjectMapping: 0.566900 ms MarkObjects: 3.316000 ms  DeleteObjects: 1.410800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,9 +183,1190 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 418450.558829 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b23efacc73f9aca88070b9c88ecbbf8') in 0.049700 seconds
+  Time since last request: 575571.991837 seconds.
+  path: Assets/OutdoorsScene.unity
+  artifactKey: Guid(8124e5870f4fd4c779e7a5f994e84ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutdoorsScene.unity using Guid(8124e5870f4fd4c779e7a5f994e84ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae5c8fa9225d6b2e86d3b8f653c2278') in 0.002484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.226605 seconds.
+  path: Assets/Settings/HDRP Balanced.asset
+  artifactKey: Guid(3e2e6bfc59709614ab90c0cd7d755e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRP Balanced.asset using Guid(3e2e6bfc59709614ab90c0cd7d755e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d520506334cbfbc6ce4fc7def3181a') in 0.012706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/HDRP Performant.asset
+  artifactKey: Guid(168a2336534e4e043b2a210b6f8d379a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRP Performant.asset using Guid(168a2336534e4e043b2a210b6f8d379a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663e8205bf597a41dd00b5201d7f9ed5') in 0.001061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.241612 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e9bf317bd5516d6a49c8a0048eee58') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.869350 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e7198e880e185df285cd6166beab91') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.064307 seconds.
+  path: Assets/TutorialInfo/Icons/HDRP.png
+  artifactKey: Guid(d19680cd422524695938fbe55cc3b3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/HDRP.png using Guid(d19680cd422524695938fbe55cc3b3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070142e45210f69702376cde8d4edd29') in 0.053772 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.794452 seconds.
+  path: Assets/Settings/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(4594f4a3fb14247e192bcca6dc23c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(4594f4a3fb14247e192bcca6dc23c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393c9c7bf0f70af9a8e5ccc94403f433') in 0.001479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(b9f3086da92434da0bc1518f19f0ce86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(b9f3086da92434da0bc1518f19f0ce86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa4262b98a793d9f46561d362de6eb5') in 0.004581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.858 seconds
+Refreshing native plugins compatible for Editor in 21.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 31.947 seconds
+Domain Reload Profiling: 35797ms
+	BeginReloadAssembly (1871ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (124ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (900ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1757ms)
+		LoadAssemblies (1784ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (243ms)
+			ResolveRequiredComponents (64ms)
+	FinalizeReload (31947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (815ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
+Refreshing native plugins compatible for Editor in 7.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5898 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (4.0 MB). Loaded Objects now: 6713.
+Memory consumption went from 253.2 MB to 249.3 MB.
+Total: 10.081500 ms (FindLiveObjects: 0.844500 ms CreateObjectMapping: 0.808200 ms MarkObjects: 7.192700 ms  DeleteObjects: 1.233400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6178.060667 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_bokuto.mat
+  artifactKey: Guid(81a912c7c9f49d6409adcca07fb7cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_bokuto.mat using Guid(81a912c7c9f49d6409adcca07fb7cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cee5079242f80acc3a01d9db3cd6a42') in 15.355487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaKo_LOD.prefab
+  artifactKey: Guid(773748a710a5afa4b98df78a0cccbd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaKo_LOD.prefab using Guid(773748a710a5afa4b98df78a0cccbd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad2493c810e84c7f3c8605c4812b4b0') in 0.105027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_Part_Tsuba_Maru2.prefab
+  artifactKey: Guid(d0c1d6433f3eaea4382e25ebac6bb3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_Part_Tsuba_Maru2.prefab using Guid(d0c1d6433f3eaea4382e25ebac6bb3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e73a4b4bb951fefd2090cb26f712a93') in 0.110000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/tanto_ko2_saya.fbx
+  artifactKey: Guid(8bd8d29e0c65d774c9f22668296519d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/tanto_ko2_saya.fbx using Guid(8bd8d29e0c65d774c9f22668296519d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1634eec3781d32ffb742e41da69c4397') in 4.221398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaKeiun_LOD.prefab
+  artifactKey: Guid(e502387a75fc9a841a39e48b7928cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaKeiun_LOD.prefab using Guid(e502387a75fc9a841a39e48b7928cb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c628f1e7b9933a2ee9ad65a8e13acaad') in 0.061570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/wakizashi_saya.fbx
+  artifactKey: Guid(2ab50506de50bf8438e02f2deb638407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/wakizashi_saya.fbx using Guid(2ab50506de50bf8438e02f2deb638407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3af8432309815753306b16a8948569') in 0.119411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_TantoKo2_LOD.prefab
+  artifactKey: Guid(ce72739b1eee8914bb571ca0b314e169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_TantoKo2_LOD.prefab using Guid(ce72739b1eee8914bb571ca0b314e169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fd1e057bb3e68cfe8bace917970c69') in 0.070126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/katana_keiun.fbx
+  artifactKey: Guid(fcafac572a65f8f408ff40a5385912c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/katana_keiun.fbx using Guid(fcafac572a65f8f408ff40a5385912c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5f77479afc0ed2f9e25d999cb23d44') in 0.139947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_nagamaki_msk.psd
+  artifactKey: Guid(3f838adf97b92654b8812a7a6d170d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_nagamaki_msk.psd using Guid(3f838adf97b92654b8812a7a6d170d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb905dcbc2eab3ea7483696aca19b5e') in 0.070981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_AllParts.prefab
+  artifactKey: Guid(981e175e6e52f804e860858144be48e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_AllParts.prefab using Guid(981e175e6e52f804e860858144be48e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d22096224c108f89114772e299d3d') in 0.169848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_shirasaya_nrm.psd
+  artifactKey: Guid(3d4ef39ea7f993e48954eeb236d72267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_shirasaya_nrm.psd using Guid(3d4ef39ea7f993e48954eeb236d72267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e955460e7795cfa8a47964c4cbd55820') in 0.081944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/phys_WoodSword.physicMaterial
+  artifactKey: Guid(8b4943cbf437a834b97f3add592237e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/phys_WoodSword.physicMaterial using Guid(8b4943cbf437a834b97f3add592237e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce3118ff92a4491aae31eb99f0d662') in 0.003742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_generic01_nrm.psd
+  artifactKey: Guid(dcb07ae5ebe2f9e40b4247a01c181b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_generic01_nrm.psd using Guid(dcb07ae5ebe2f9e40b4247a01c181b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14963b5e52082e5299b5ba8b8acf4eab') in 0.060944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_nodachi.mat
+  artifactKey: Guid(e2efa6b25a54620448030905dbe150ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_nodachi.mat using Guid(e2efa6b25a54620448030905dbe150ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbbf9e3a73a2f30d893f298a0a9d985') in 0.067588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko_dif.psd
+  artifactKey: Guid(655fde4d7bfe0874a8798872dc351554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko_dif.psd using Guid(655fde4d7bfe0874a8798872dc351554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eec640af1685832b9d3898c6db0d790') in 0.040519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_shirasaya_dif.psd
+  artifactKey: Guid(f325ed8aa661af34facf90cb56aaf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_shirasaya_dif.psd using Guid(f325ed8aa661af34facf90cb56aaf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b330b1a57f55400481d31b480383a6') in 0.046989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tanto_msk.psd
+  artifactKey: Guid(6985c513be5faaf4785348a8cf082deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tanto_msk.psd using Guid(6985c513be5faaf4785348a8cf082deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed6e98a7aa75d58d6b5d5903f9d1b73') in 0.050305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_katanako_nrm.psd
+  artifactKey: Guid(e843514b17c51554dbc8c4b3fbaa02d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_katanako_nrm.psd using Guid(e843514b17c51554dbc8c4b3fbaa02d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a932052e221a4dc288e0b618d9f30e39') in 0.025094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_tachi_msk.psd
+  artifactKey: Guid(5a89f74e1801e374f908e161dd736a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_tachi_msk.psd using Guid(5a89f74e1801e374f908e161dd736a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4a42a1da68818bc2a718069bfd3159') in 0.044644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_mokko_nrm.psd
+  artifactKey: Guid(79c9c2255d76e484781007958974e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_mokko_nrm.psd using Guid(79c9c2255d76e484781007958974e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137be75adc9785dc003aa69ff545e310') in 0.049508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_bokuto_nrm.psd
+  artifactKey: Guid(63066199f92476a4e992826c124e3c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_bokuto_nrm.psd using Guid(63066199f92476a4e992826c124e3c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa6520dc795bb51e9bd243845ab07de') in 0.037176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Tachi_LOD.prefab
+  artifactKey: Guid(d1a5044867841944082c246a8fef751f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Tachi_LOD.prefab using Guid(d1a5044867841944082c246a8fef751f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4d47646c6b46542b84ed3d8366f874') in 0.070444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_generic02_dif.psd
+  artifactKey: Guid(73b756f828669f34f8f2334608d59fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_generic02_dif.psd using Guid(73b756f828669f34f8f2334608d59fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5677168bf1035607cc8af0a5822b6479') in 0.055454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/shirasaya.fbx
+  artifactKey: Guid(0b2d5bccff28ff5429503f4dcc11e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/shirasaya.fbx using Guid(0b2d5bccff28ff5429503f4dcc11e31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5363c74529afe94c4eec8b880705df3') in 0.136765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko_nrm.psd
+  artifactKey: Guid(113e876f353fa0047b352420bb5929fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko_nrm.psd using Guid(113e876f353fa0047b352420bb5929fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799b9cdd8dca5e6ce6f268b7b8586448') in 0.052902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Tachi_LOD.prefab
+  artifactKey: Guid(453cc64b817217f43b0a86da5322f905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Tachi_LOD.prefab using Guid(453cc64b817217f43b0a86da5322f905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ba9eb019d3d568b36570dec9f018ba') in 0.082672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_katanako_msk.psd
+  artifactKey: Guid(add9aba2b30dd6e4a87ecc18741e6861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_katanako_msk.psd using Guid(add9aba2b30dd6e4a87ecc18741e6861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2800d5586793e6d561155286174b47bf') in 0.052750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tachi_dif.psd
+  artifactKey: Guid(f60a7cafe61b5094d856fc72d1573452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tachi_dif.psd using Guid(f60a7cafe61b5094d856fc72d1573452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0253e1890fe5d7a4f34b6fcc3533f80') in 0.054533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Shirasaya_LOD.prefab
+  artifactKey: Guid(987bc82b668dbc74c98aa013a38a0fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Shirasaya_LOD.prefab using Guid(987bc82b668dbc74c98aa013a38a0fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaed3bb30c9e184bd2e775fd71c63e80') in 0.076577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaWeathered_LOD.prefab
+  artifactKey: Guid(adf319658a221204ea6ab3d4b1bce2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaWeathered_LOD.prefab using Guid(adf319658a221204ea6ab3d4b1bce2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87775d68594ee7a7f8ad8a422e94c3a6') in 0.068159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/phys_MetalSword.physicMaterial
+  artifactKey: Guid(e26af8b40b8a1204f8102f9d30f24732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/phys_MetalSword.physicMaterial using Guid(e26af8b40b8a1204f8102f9d30f24732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6474f94d42950e220487e7f217ed9967') in 0.010974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.091777 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_weather_msk.psd
+  artifactKey: Guid(53015524b47a6f9449cd4aace2af9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_weather_msk.psd using Guid(53015524b47a6f9449cd4aace2af9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3389b6e42ad29d44c2abe3cc630022e') in 0.476835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/tachi.fbx
+  artifactKey: Guid(f452d02f629a91846a233ed92367cafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/tachi.fbx using Guid(f452d02f629a91846a233ed92367cafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5d9e6e7b16c88e8481ff647e365ec9') in 1.555592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_shinai_nrm.psd
+  artifactKey: Guid(677518c60ef298743b6002ded45dc402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_shinai_nrm.psd using Guid(677518c60ef298743b6002ded45dc402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20425f7334bd59d7736afffb2d230d0c') in 0.050951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_rust_nrm.psd
+  artifactKey: Guid(ebdf96c40e109ce46859eb18ba91f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_rust_nrm.psd using Guid(ebdf96c40e109ce46859eb18ba91f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46687a1d4d716542ffa28caf100f9590') in 0.064659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_plainwood_dif.psd
+  artifactKey: Guid(da71f0ef08dfcf94aacff336ea4abae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_plainwood_dif.psd using Guid(da71f0ef08dfcf94aacff336ea4abae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d344ee4749aa3a0f0d496bd36a68fb') in 0.066243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_weather_nrm.psd
+  artifactKey: Guid(dcb3dbb78c713d846bafdd177c79f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_weather_nrm.psd using Guid(dcb3dbb78c713d846bafdd177c79f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfa68dd470fb82cd3e655b6a8a1c5ec') in 0.063446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_rust.mat
+  artifactKey: Guid(98689f64bdec30942ae77d722856039f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_rust.mat using Guid(98689f64bdec30942ae77d722856039f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2d6c949daa717837319d7513bcc400') in 0.233831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.006803 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_musashi_dif.psd
+  artifactKey: Guid(e84f2346791053e44825c65c8e7ec451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_musashi_dif.psd using Guid(e84f2346791053e44825c65c8e7ec451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8555e73b836a4360c2caf02b9b313aaf') in 0.119761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_nagamaki_dif.psd
+  artifactKey: Guid(af131b5d868b06148bf2b18e59e99dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_nagamaki_dif.psd using Guid(af131b5d868b06148bf2b18e59e99dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14186f0bf1b2263864be5b3f8a11c97') in 0.138055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007054 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_wakizashi.mat
+  artifactKey: Guid(5097d7cc515d9984895ab83b142bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_wakizashi.mat using Guid(5097d7cc515d9984895ab83b142bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f671bbb95a25ecaabf4b8a0f82f0fb') in 0.227337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.016189 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko_msk.psd
+  artifactKey: Guid(4871818e2560396448427ef7bb017fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko_msk.psd using Guid(4871818e2560396448427ef7bb017fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ceb8e80ba743caab2e50a206df9029') in 0.160839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001048 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_musashi_msk.psd
+  artifactKey: Guid(2bb1e3b767391b74fa87e1292c3318ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_musashi_msk.psd using Guid(2bb1e3b767391b74fa87e1292c3318ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1733d30964261fba7524865b7fd10cfa') in 0.278828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_Part_Tsuba_Musashi.prefab
+  artifactKey: Guid(88c5ffd0a5c4b7d4c98b1ed1e7510297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_Part_Tsuba_Musashi.prefab using Guid(88c5ffd0a5c4b7d4c98b1ed1e7510297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ea06d250b1e743a398b8bc79aaa5b3') in 0.087901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Nagamaki_LOD.prefab
+  artifactKey: Guid(cc744d43f88f49d4e9b4d59f33984002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Nagamaki_LOD.prefab using Guid(cc744d43f88f49d4e9b4d59f33984002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1295586898f140a3873f90b9b644a889') in 0.057771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Wakizashi_LOD.prefab
+  artifactKey: Guid(d61c055866e5948478613c9101f56fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Wakizashi_LOD.prefab using Guid(d61c055866e5948478613c9101f56fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75270bc2f8066d05748ec7d6d1f9e4ab') in 0.061309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Ko_LOD.prefab
+  artifactKey: Guid(76c7267b899e8d6498d92ed3c7e863a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Ko_LOD.prefab using Guid(76c7267b899e8d6498d92ed3c7e863a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184e3b5dfadb90ab90ee1bf8884773ea') in 0.092950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_katanako_nrm.psd
+  artifactKey: Guid(fe99cf325942c3745ba78acf02f3ff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_katanako_nrm.psd using Guid(fe99cf325942c3745ba78acf02f3ff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb7c2c6414def331d4ccd49ef6630bf') in 0.075523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_katanako.mat
+  artifactKey: Guid(418d85683e93d9549b0037ddcc9ab09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_katanako.mat using Guid(418d85683e93d9549b0037ddcc9ab09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb592eeefda3f3456af879e93834f589') in 0.089299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_keiun_dif.psd
+  artifactKey: Guid(909b160d2c7f0214c8bf4a2d2e066bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_keiun_dif.psd using Guid(909b160d2c7f0214c8bf4a2d2e066bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d496f55e4ad82b93ce71f3cb0ca6550') in 0.100536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_musashi.mat
+  artifactKey: Guid(1ef29aad46d7e414f88bd8440410d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_musashi.mat using Guid(1ef29aad46d7e414f88bd8440410d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488d872fa2f31c93bb33e7ac36fc3e7f') in 0.075970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_tantoko2.mat
+  artifactKey: Guid(09f92550f3703c44f91490803a1c689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_tantoko2.mat using Guid(09f92550f3703c44f91490803a1c689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ad7d293242c36647b540df0779d1c4') in 0.049706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/nagamaki_saya.fbx
+  artifactKey: Guid(938ac63ff55aa1647b35bacc3fda7dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/nagamaki_saya.fbx using Guid(938ac63ff55aa1647b35bacc3fda7dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a3fcda7f9889dff0a8de4a54513156') in 0.141190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_tachi_nrm.psd
+  artifactKey: Guid(f4e892097b0789f438adc2a9877fdfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_tachi_nrm.psd using Guid(f4e892097b0789f438adc2a9877fdfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7565d04ffdc68f60f9bab4c6a99ac2d') in 0.062588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Rust_LOD.prefab
+  artifactKey: Guid(2e608582a239fee47b279c928f6f0f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Rust_LOD.prefab using Guid(2e608582a239fee47b279c928f6f0f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0cb08d4691dd6c6a9298b0c9dcd521') in 0.103828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Tanto_Ko_LOD.prefab
+  artifactKey: Guid(667c8201e36d8ad4f98c048f611c547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Tanto_Ko_LOD.prefab using Guid(667c8201e36d8ad4f98c048f611c547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d0b963958d412bf6e613c8b67d3ae5') in 0.096601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/katana_ko_saya.fbx
+  artifactKey: Guid(791c767a34bf0304eb593c4f010d3f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/katana_ko_saya.fbx using Guid(791c767a34bf0304eb593c4f010d3f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8551a1ae5a94ae31667fa5ec990fdb2b') in 0.126029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_nodachi_nrm.psd
+  artifactKey: Guid(71579394a0ebab34cb98d1773ecd7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_nodachi_nrm.psd using Guid(71579394a0ebab34cb98d1773ecd7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b069805003633609b4e0db6c9a52224e') in 0.053529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_mokko.mat
+  artifactKey: Guid(4866ca68028eb0f4fb7432808b29a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_mokko.mat using Guid(4866ca68028eb0f4fb7432808b29a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ab93e74b3bd312f57cbebd183b5a6c') in 0.060126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_weathered.mat
+  artifactKey: Guid(2382172aa2c60b74b9571fd56a1a62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_weathered.mat using Guid(2382172aa2c60b74b9571fd56a1a62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1785642db5c266c3bb46b4761a7beac6') in 0.107314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_generic02_dif.psd
+  artifactKey: Guid(291e2456b1b18934c8ad4862a46e798e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_generic02_dif.psd using Guid(291e2456b1b18934c8ad4862a46e798e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ccf5002dc936d25d825827d4143f9b') in 0.059716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_mokko_dif.psd
+  artifactKey: Guid(e022ef92a93258d45b8c5070dd80a676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_mokko_dif.psd using Guid(e022ef92a93258d45b8c5070dd80a676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2057c1b8e2d8e96bb963c993c06c7d') in 0.062310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/nagamaki.fbx
+  artifactKey: Guid(41aa02d060218d549925108c37e41033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/nagamaki.fbx using Guid(41aa02d060218d549925108c37e41033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d5c772e70cf0d10ae6e50afc0c7d3a') in 0.130735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_generic01_nrm.psd
+  artifactKey: Guid(f6bea0576007935429639e645a9deb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_generic01_nrm.psd using Guid(f6bea0576007935429639e645a9deb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08fceae9b5beebf846b5615186eb059') in 0.062745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_tantoko2.mat
+  artifactKey: Guid(797519cb834190044a9af37082813ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_tantoko2.mat using Guid(797519cb834190044a9af37082813ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195d50a622c31624720011dc42ede5a1') in 0.071922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/wakizashi.fbx
+  artifactKey: Guid(edf516a73644c984da0152792b796522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/wakizashi.fbx using Guid(edf516a73644c984da0152792b796522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7917b4e520fd78b967ebe9fb0cc0d3b') in 0.119912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaMusashi_LOD.prefab
+  artifactKey: Guid(0e34d9d43d90aac45baaf82877ec1d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_KatanaMusashi_LOD.prefab using Guid(0e34d9d43d90aac45baaf82877ec1d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a130f1c5fc0ea425c97c6bce81240b65') in 0.064094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/katana_ko.fbx
+  artifactKey: Guid(03baf927d9ea6304d96dd60faa7e566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/katana_ko.fbx using Guid(03baf927d9ea6304d96dd60faa7e566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caf2ec6b2fccb0c5bda741a17e65c81') in 0.153091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_shirasaya.mat
+  artifactKey: Guid(16cc1339e26cd104db4ce31a91fcbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_shirasaya.mat using Guid(16cc1339e26cd104db4ce31a91fcbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cdcc96ee66c9cfaed593aa98bbc348') in 0.108210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_plainwood_msk 1.psd
+  artifactKey: Guid(337abd77d3682234dbbf5858ee40c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_plainwood_msk 1.psd using Guid(337abd77d3682234dbbf5858ee40c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ab9f558e3715aa6f2613d1f22f9386') in 0.086502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001721 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/tanto.fbx
+  artifactKey: Guid(c66432e4604a329408d070aa585ff9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/tanto.fbx using Guid(c66432e4604a329408d070aa585ff9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd778e10aa67581ca0aeb6e5e76a65d9c') in 0.237384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_Part_Fuchi.prefab
+  artifactKey: Guid(86bde388173e8174eb10971ee09f7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_Parts/Katana_Part_Fuchi.prefab using Guid(86bde388173e8174eb10971ee09f7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb172c8fd4e26ca8936b0e8c1a94cd0') in 0.185251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/wakizashi_bohi.fbx
+  artifactKey: Guid(1811095cb3c5f5243a7e99a98d043e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/wakizashi_bohi.fbx using Guid(1811095cb3c5f5243a7e99a98d043e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51335dc0b1d79e0a5c392c12e541da81') in 0.115001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_generic02_nrm.psd
+  artifactKey: Guid(001ccb908c395944d9b09e83ef7ccf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_generic02_nrm.psd using Guid(001ccb908c395944d9b09e83ef7ccf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214469b7a1ca73e98d8e8c7d74f169b') in 0.078084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_nagamaki_nrm.psd
+  artifactKey: Guid(e114b7ebb88c97f4eb7ae4c901c84a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_nagamaki_nrm.psd using Guid(e114b7ebb88c97f4eb7ae4c901c84a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297f1e1563123813adc51ef95f5c96e9') in 0.110169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/katana_mokko.fbx
+  artifactKey: Guid(fee89d1cc9b692945a2e9c0a862467b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/katana_mokko.fbx using Guid(fee89d1cc9b692945a2e9c0a862467b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4a84acc6350462ba864c5ec09e1a7d') in 0.206992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_sword_tanto.mat
+  artifactKey: Guid(abd687d14cb55e24385dd41c5788430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_sword_tanto.mat using Guid(abd687d14cb55e24385dd41c5788430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c8784c20c67fddc13fb4b08fa09a76') in 0.091589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_nodachi.mat
+  artifactKey: Guid(42378cab66bea3b4bacb4d11fb243b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_nodachi.mat using Guid(42378cab66bea3b4bacb4d11fb243b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ddbdc932ec010cc931313b777f395e') in 0.064668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.003452 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_musashi_dif.psd
+  artifactKey: Guid(da92c81f36a1046468ef717c5a29e7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_musashi_dif.psd using Guid(da92c81f36a1046468ef717c5a29e7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7609ec8c433ece80c7b24f5f5b0beeb5') in 0.081731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_mokko.mat
+  artifactKey: Guid(761be8dd326f1a14398306c0c7ec39da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_mokko.mat using Guid(761be8dd326f1a14398306c0c7ec39da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ce0586d5aad9c964098e3f20e1dfd8') in 0.068114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko2_nrm.psd
+  artifactKey: Guid(df1ae578c88b1554fb614b3aaedadf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tantoko2_nrm.psd using Guid(df1ae578c88b1554fb614b3aaedadf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cf786e59027e9558e123f7b7b6cba2') in 0.091823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Generic01_LOD.prefab
+  artifactKey: Guid(9f0500ffe2cdbf345b1ba364713491cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Generic01_LOD.prefab using Guid(9f0500ffe2cdbf345b1ba364713491cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f23ca15093acb352a417bc7e836702') in 0.153154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Nodachi_LOD.prefab
+  artifactKey: Guid(2b0f65de9ba7dd6438d30200d6195c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Nodachi_LOD.prefab using Guid(2b0f65de9ba7dd6438d30200d6195c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d754514e48faa24a07eef58356779fe') in 0.109387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_mokko_msk.psd
+  artifactKey: Guid(cdc4293cb32e5ff489dd29e053730e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_mokko_msk.psd using Guid(cdc4293cb32e5ff489dd29e053730e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ef272cd7ce4899270cd0ab7c59e69c') in 0.079933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Tanto_LOD.prefab
+  artifactKey: Guid(c61aafe5f820e6b4196cadc138ae3935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Saya_Tanto_LOD.prefab using Guid(c61aafe5f820e6b4196cadc138ae3935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe47aef55f8e346de371a37a304fdce') in 0.124884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_musashi.mat
+  artifactKey: Guid(8287bff39fbd514489396b43e94642c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_musashi.mat using Guid(8287bff39fbd514489396b43e94642c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73832ff35dad94e156ff66bbffeb9bde') in 0.085232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_sword_katanako_msk.psd
+  artifactKey: Guid(0300997433e2dda42b6772280cf445cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_sword_katanako_msk.psd using Guid(0300997433e2dda42b6772280cf445cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbdd44a5e7f419f90a02afce08b9c5e') in 0.218428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001143 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_musashi_msk.psd
+  artifactKey: Guid(af5a5f12ce4918843a5a335f072343d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_musashi_msk.psd using Guid(af5a5f12ce4918843a5a335f072343d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf909cd1d02a69724138759bf430cbe') in 0.098260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_tachi_nrm.psd
+  artifactKey: Guid(a090a8a7bccbd6d4a8c2db8077fbd325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_tachi_nrm.psd using Guid(a090a8a7bccbd6d4a8c2db8077fbd325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752ead27f04b909bf3f4c8e270df9e71') in 0.081272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/JTS_TheSamuraiSword/Mesh/bokuto.fbx
+  artifactKey: Guid(dbf5d8c69f5d2794c8cab8f8debf80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Mesh/bokuto.fbx using Guid(dbf5d8c69f5d2794c8cab8f8debf80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f590cb847a4e29f9ef01107bc85c52') in 0.197106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/JTS_TheSamuraiSword/Materials/mat_saya_plainwood.mat
+  artifactKey: Guid(0f9db907853a22044a2fd27956a067ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Materials/mat_saya_plainwood.mat using Guid(0f9db907853a22044a2fd27956a067ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3720c3e6c9b1282645b8b9df9c41b9a') in 0.068326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_saya_keiun_dif.psd
+  artifactKey: Guid(c14955bd18983754d9505346e376e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_saya_keiun_dif.psd using Guid(c14955bd18983754d9505346e376e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f436029b8e5662d94f8b7dfd9e673cd0') in 0.080572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/JTS_TheSamuraiSword/Textures/tex_bokuto_dif.psd
+  artifactKey: Guid(134e47e5b1f99ae46b8c994cd045cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Textures/tex_bokuto_dif.psd using Guid(134e47e5b1f99ae46b8c994cd045cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea61e418874507febe5e7a7ff2bf461') in 0.072706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Generic02_LOD.prefab
+  artifactKey: Guid(3806e98d75be35a47b904753584c4796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs_LOD/Katana_Generic02_LOD.prefab using Guid(3806e98d75be35a47b904753584c4796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d6da0f4bd21b5babeeebf262e3a20c') in 0.100242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 53.875426 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Katana_Generic01.prefab
+  artifactKey: Guid(1ac258bebac56774ab51d86547617ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Katana_Generic01.prefab using Guid(1ac258bebac56774ab51d86547617ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8225da85a40833eb53f68d4f6cf0b511') in 0.054952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Katana_Rust.prefab
+  artifactKey: Guid(359567293812c714f968fd2ebfd7ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Katana_Rust.prefab using Guid(359567293812c714f968fd2ebfd7ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060eb64f65ffef46eb712faa6318616a') in 0.053917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Katana_Musashi.prefab
+  artifactKey: Guid(9c59f8a3f0b6fde41942fad851340ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Katana_Musashi.prefab using Guid(9c59f8a3f0b6fde41942fad851340ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a11da267e7794a9b93c1680e261b13') in 0.052263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Tanto.prefab
+  artifactKey: Guid(27bdebabecd9c614982e07e66781e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Tanto.prefab using Guid(27bdebabecd9c614982e07e66781e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653e234771b2c89246fedda14042cf43') in 0.056841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Saya_TantoKo2.prefab
+  artifactKey: Guid(9fbdcb6ca9c13de43a4e4e16e53cce13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Saya_TantoKo2.prefab using Guid(9fbdcb6ca9c13de43a4e4e16e53cce13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1e2016048d69325c1fc195b49ba291') in 0.035411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Tachi.prefab
+  artifactKey: Guid(27c05f3363266034b87841009bda66b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Tachi.prefab using Guid(27c05f3363266034b87841009bda66b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48421e15a9ea93a291ac76b1c484f6aa') in 0.051447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Saya_Wakizashi.prefab
+  artifactKey: Guid(87c0f56ba214df949bc17cf5a9d3dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Saya_Wakizashi.prefab using Guid(87c0f56ba214df949bc17cf5a9d3dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bf3a5d635056dafd504007a9ef58a3') in 0.044639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Saya_KatanaKo.prefab
+  artifactKey: Guid(07a946fd4b810c54d948e65dea446b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Saya_KatanaKo.prefab using Guid(07a946fd4b810c54d948e65dea446b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1c191791bb23e37a8f76359a625f01') in 0.047273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Shirasaya.prefab
+  artifactKey: Guid(a967173c5c0c7694393772c92f1c3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Shirasaya.prefab using Guid(a967173c5c0c7694393772c92f1c3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779f260d4fc7aa18a69d0c8ceaaf6c55') in 0.061333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/JTS_TheSamuraiSword/Prefabs/Nodachi.prefab
+  artifactKey: Guid(230ab468e3a7fec46928597d3efef833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JTS_TheSamuraiSword/Prefabs/Nodachi.prefab using Guid(230ab468e3a7fec46928597d3efef833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e9921709bb99b3bb1f61b2124ebfbf') in 0.061909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 41.588524 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Materials/HumanBaseMesh_Male.mat
+  artifactKey: Guid(cd277cd493ecdaa4ba82a505c9ca67a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Materials/HumanBaseMesh_Male.mat using Guid(cd277cd493ecdaa4ba82a505c9ca67a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc9e4b8b849d3e850d45e9f83d8206') in 0.067646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Materials/HumanBaseMeshes_DummyMale.mat
+  artifactKey: Guid(f3f09757812bc2745806518dd4134006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Materials/HumanBaseMeshes_DummyMale.mat using Guid(f3f09757812bc2745806518dd4134006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657be00e734e853dc2fcfdc660221baa') in 0.025094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.609679 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Models/HumanBaseMesh_Male.fbx
+  artifactKey: Guid(c7116b6c825c8b845b17d603ecbe3177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Models/HumanBaseMesh_Male.fbx using Guid(c7116b6c825c8b845b17d603ecbe3177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44f9a3a9af3ac11fe0bf57b45fb8ccc') in 0.188102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 151
+========================================================================
+Received Import Request.
+  Time since last request: 0.256869 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Textures/HumanBaseMesh_Female-Normal.png
+  artifactKey: Guid(21d8dec9f442e7c4a987cecf1d090c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Textures/HumanBaseMesh_Female-Normal.png using Guid(21d8dec9f442e7c4a987cecf1d090c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e828ed4a21a60bd69100a3c632aef3c') in 0.030939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.822959 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Prefabs/DummyModel_Male.prefab
+  artifactKey: Guid(0be4e1c6b7e874042a041c429a847e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Prefabs/DummyModel_Male.prefab using Guid(0be4e1c6b7e874042a041c429a847e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529007ff7cc5fc09edd21bf5455b06fa') in 0.041273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Prefabs/HumanBaseMesh_Male01.prefab
+  artifactKey: Guid(1b2f0b19b195e33478c3e4ac1cd90f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Prefabs/HumanBaseMesh_Male01.prefab using Guid(1b2f0b19b195e33478c3e4ac1cd90f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78250457ecbcd6aeb05e71ab67f9e227') in 0.046933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 11.464828 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Textures/DummyFemale/HumanBaseMeshes_DummyFemale-BaseColor.png
+  artifactKey: Guid(59ee41accc0c9d54296c507889dc48a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Textures/DummyFemale/HumanBaseMeshes_DummyFemale-BaseColor.png using Guid(59ee41accc0c9d54296c507889dc48a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295eb9ecff324797b1d54dfa63acc074') in 0.059455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.021561 seconds.
+  path: Assets/Kevin Iglesias/Human Base Meshes/Textures/DummyMale/HumanBaseMeshes_DummyMale-BaseColor.png
+  artifactKey: Guid(616a0a23b22b1734ab8aa2fd4299d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Base Meshes/Textures/DummyMale/HumanBaseMeshes_DummyMale-BaseColor.png using Guid(616a0a23b22b1734ab8aa2fd4299d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c1fc671f83beb456c38105a83a2e7f') in 0.061711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.643 seconds
+Refreshing native plugins compatible for Editor in 8.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.295 seconds
+Domain Reload Profiling: 4929ms
+	BeginReloadAssembly (686ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (123ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (154ms)
+	RebuildCommonClasses (148ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (688ms)
+		LoadAssemblies (780ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (108ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3296ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1163ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (809ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5892 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (3.9 MB). Loaded Objects now: 6876.
+Memory consumption went from 262.1 MB to 258.2 MB.
+Total: 6.883800 ms (FindLiveObjects: 0.789600 ms CreateObjectMapping: 0.901500 ms MarkObjects: 4.096700 ms  DeleteObjects: 1.094500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 258.933754 seconds.
+  path: Assets/DoubleL/Actions/Action_A_5_1.fbx
+  artifactKey: Guid(685224dfba73f3b47a41d53e82ea6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Actions/Action_A_5_1.fbx using Guid(685224dfba73f3b47a41d53e82ea6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be6d3ae6988551f880df602ff18c9ae') in 0.043648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.766077 seconds.
+  path: Assets/DoubleL/Hit/Hit_F_1_InPlace.fbx
+  artifactKey: Guid(7042460e2d1c99249818b6e9e3b741e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Hit/Hit_F_1_InPlace.fbx using Guid(7042460e2d1c99249818b6e9e3b741e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425545c03e37064dbe0f03e671214ea9') in 0.007377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DoubleL/Hit/Hit_F_2_InPlace.fbx
+  artifactKey: Guid(4c3091a2fde3e6843af12d8717f0ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Hit/Hit_F_2_InPlace.fbx using Guid(4c3091a2fde3e6843af12d8717f0ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b68dce1ced8e8484eb80e1d915e646d') in 0.005021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.386668 seconds.
+  path: Assets/DoubleL/Model/Armature (1).prefab
+  artifactKey: Guid(459f79a004eb51144840e79b6950c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Model/Armature (1).prefab using Guid(459f79a004eb51144840e79b6950c697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef6c3f6a2d493a412672b0c95a8b9b7') in 1.900500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DoubleL/Model/Grid_01_BaseMap.png
+  artifactKey: Guid(aabc9b201e428084cbafce795c5ba85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Model/Grid_01_BaseMap.png using Guid(aabc9b201e428084cbafce795c5ba85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9426470ef07b21cd6b197a0089d82b') in 0.065348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/DoubleL/Actions/Ladder/Ladder_Down_Play_InPlace.fbx
+  artifactKey: Guid(2c9ddb8016065d1458be4b9f02c52df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Actions/Ladder/Ladder_Down_Play_InPlace.fbx using Guid(2c9ddb8016065d1458be4b9f02c52df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18f4db91fdb9aa12b5adaeb3352388e') in 0.015447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DoubleL/Actions/Ladder/Ladder_Idle.fbx
+  artifactKey: Guid(5923906c6b7a11a4d9f341d6aa114388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Actions/Ladder/Ladder_Idle.fbx using Guid(5923906c6b7a11a4d9f341d6aa114388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee7526c87d3992e3600d4b5cbb9e27e') in 0.017917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/DoubleL/Model/T-Pose.fbx
+  artifactKey: Guid(3955de6a24970f840996fe77051507ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Model/T-Pose.fbx using Guid(3955de6a24970f840996fe77051507ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b57eeb8b1f084fa8e402cd8a05ad30') in 0.314667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/DoubleL/Model/SM_Wep_Shield_01.fbx
+  artifactKey: Guid(08aecb816b6b4194a9c2897afa4f9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Model/SM_Wep_Shield_01.fbx using Guid(08aecb816b6b4194a9c2897afa4f9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0b9cd7ad7f46521256133f05e024b2') in 0.123128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/DoubleL/Model/SM_Wep_Sword_03.fbx
+  artifactKey: Guid(a095f798aba8f2946b3a23de742b2fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Model/SM_Wep_Sword_03.fbx using Guid(a095f798aba8f2946b3a23de742b2fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debfc95a301018a1635a217000078be4') in 0.144638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/DoubleL/Actions/Ladder/Ladder_Up_Play_InPlace.fbx
+  artifactKey: Guid(3f1bd44a67d3ebc41a0673c95391a4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Actions/Ladder/Ladder_Up_Play_InPlace.fbx using Guid(3f1bd44a67d3ebc41a0673c95391a4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251df8152c6511c2d6467c72837a2a74') in 0.017982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DoubleL/Actions/Ladder/Ladder_Up_End_InPlace.fbx
+  artifactKey: Guid(3bb5b4169522c1e44a0b116e47d31f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoubleL/Actions/Ladder/Ladder_Up_End_InPlace.fbx using Guid(3bb5b4169522c1e44a0b116e47d31f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf57ff38059ff11ae0a62ea6f1fc6d6d') in 0.057225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
